@@ -58,16 +58,16 @@ body {
     font-size: 2vw;
 }
 
-.day-input:focus,
-.month-input:focus,
-.year-input:focus {
+#day-input:focus,
+#month-input:focus,
+#year-input:focus {
     border-color: var(--Purple);
     outline: 0;
 }
 
-.day-input:hover,
-.month-input:hover,
-.year-input:hover {
+#day-input:hover,
+#month-input:hover,
+#year-input:hover {
     border-color: var(--Purple);
     cursor: pointer;
 }
@@ -133,6 +133,7 @@ img:hover {
     font-weight: 400;
     font-style: italic;
     color: var(--Lightred);
+    font-size: clamp(0.5rem, 0.3571rem + 0.7143vw, 1rem);
 }
 
 .red-text {
@@ -184,16 +185,16 @@ img:hover {
         width:16vw;
     }
     
-    .day-input:focus,
-    .month-input:focus,
-    .year-input:focus {
+    #day-input:focus,
+    #month-input:focus,
+    #year-input:focus {
         border-color: var(--Purple);
         outline: 0;
     }
     
-    .day-input:hover,
-    .month-input:hover,
-    .year-input:hover {
+    #day-input:hover,
+    #month-input:hover,
+    #year-input:hover {
         border-color: var(--Purple);
         cursor: pointer;
     }
